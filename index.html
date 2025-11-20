@@ -68,9 +68,41 @@
             box-shadow: 0 8px 25px rgba(0,0,0,0.12);
         }
 
+        .os-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+
         .os-title img {
             width: 32px;
             height: 32px;
+        }
+
+        /* FIX UTAMA: Style Tombol */
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #1e3c72;
+            color: white;
+            font-weight: 600;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 15px;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background: #163567;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #666;
+            font-size: 14px;
+            margin-top: 50px;
         }
     </style>
 </head>
@@ -95,7 +127,9 @@
             <span style="font-size:20px;font-weight:700;">Windows</span>
         </div>
         <p>Minimal Windows 10 (64-bit). Tidak perlu instalasi — cukup download & jalankan.</p>
-        <a class="btn" href="https://github.com/wildanizecson/aplikasi-ujian/releases/latest/download/ExUjian.exe">Download untuk Windows (.EXE)</a>
+        <a class="btn" href="https://github.com/wildanizecson/aplikasi-ujian/releases/latest/download/ExUjian.exe">
+            Download untuk Windows (.EXE)
+        </a>
     </div>
 
     <!-- ANDROID -->
@@ -105,7 +139,9 @@
             <span style="font-size:20px;font-weight:700;">Android</span>
         </div>
         <p>Minimal Android 7. Izinkan instalasi aplikasi dari browser jika diminta.</p>
-        <a class="btn" href="https://github.com/wildanizecson/aplikasi-ujian/releases/latest/download/ExUjian.apk">Download untuk Android (.APK)</a>
+        <a class="btn" href="https://github.com/wildanizecson/aplikasi-ujian/releases/latest/download/ExUjian.apk">
+            Download untuk Android (.APK)
+        </a>
     </div>
 
     <!-- MAC OS -->
@@ -141,7 +177,9 @@
 
         <br><br>
 
-        <a class="btn" href="https://www.apple.com/id/app-store/">Download SEB via App Store</a>
+        <a class="btn" href="https://www.apple.com/id/app-store/">
+            Download SEB via App Store
+        </a>
     </div>
 
 </div>
