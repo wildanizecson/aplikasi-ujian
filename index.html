@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download Aplikasi Ujian</title>
+    <title>Portal Download Aplikasi Ujian</title>
 
-    <!-- GOOGLE FONTS -->
+    <!-- FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
     <style>
@@ -21,7 +21,7 @@
             padding: 35px 20px;
             text-align: center;
             color: white;
-            font-size: 26px;
+            font-size: 28px;
             font-weight: 700;
             letter-spacing: 0.5px;
             box-shadow: 0 3px 10px rgba(0,0,0,0.2);
@@ -33,11 +33,30 @@
             padding: 20px;
         }
 
-        .section-title {
-            font-size: 22px;
-            margin-bottom: 10px;
+        .important-box {
+            background: #fff3cd;
+            padding: 20px;
+            border-left: 5px solid #ffca2c;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+
+        .btn-guide {
+            display: block;
+            background: #d9534f;
+            padding: 16px;
+            text-align: center;
+            font-size: 18px;
+            color: white;
+            border-radius: 10px;
             font-weight: 700;
-            color: #1e3c72;
+            text-decoration: none;
+            margin-bottom: 40px;
+        }
+
+        .btn-guide:hover {
+            background: #c64541;
         }
 
         .card {
@@ -100,13 +119,22 @@
 
 <div class="container">
 
+    <!-- PENGUMUMAN -->
+    <div class="important-box">
+        <strong>Perhatian:</strong> Setelah mendownload aplikasi sesuai perangkat Anda, 
+        <strong>WAJIB membaca panduan penggunaan</strong> sebelum membuka aplikasi ujian.
+    </div>
+
+    <!-- TOMBOL BACA PANDUAN -->
+    <a class="btn-guide" href="panduan.html">📘 Baca Panduan Penggunaan Aplikasi Ujian</a>
+
     <!-- WINDOWS -->
     <div class="card">
         <div class="os-title">
             <img src="https://img.icons8.com/color/48/windows-10.png" alt="Windows">
             Windows
         </div>
-        <p>Minimal Windows 10 (64-bit). Setelah download, simpan di desktop dan tidak perlu di install.</p>
+        <p>Minimal Windows 10 (64-bit). Tidak perlu instalasi — cukup download & jalankan.</p>
         <a class="btn" href="https://github.com/wildanizecson/aplikasi-ujian/releases/latest/download/ExUjian.exe">
             Download untuk Windows (.EXE)
         </a>
@@ -118,7 +146,7 @@
             <img src="https://img.icons8.com/color/48/android-os.png" alt="Android">
             Android
         </div>
-        <p>Minimal Android 7. Jika muncul peringatan keamanan, izinkan instalasi dari browser.</p>
+        <p>Minimal Android 7. Izinkan instalasi aplikasi dari browser jika diminta.</p>
         <a class="btn" href="https://github.com/wildanizecson/aplikasi-ujian/releases/latest/download/ExUjian.apk">
             Download untuk Android (.APK)
         </a>
@@ -130,7 +158,7 @@
             <img src="https://img.icons8.com/color/48/mac-os.png" alt="macOS">
             macOS (MacBook / iMac)
         </div>
-        <p>Gunakan versi Safe Exam Browser khusus macOS. Install seperti aplikasi biasa. lalu download konfigurasi file dibawah</p>
+        <p>Download Safe Exam Browser untuk macOS, lalu buka file konfigurasi ujian.</p>
         <a class="btn" href="https://github.com/wildanizecson/aplikasi-ujian/releases/latest/download/SafeExamBrowser-3.6.dmg">
             Download untuk macOS (.DMG)
         </a>
@@ -143,7 +171,7 @@
             iOS / iPadOS (iPhone & iPad)
         </div>
 
-        <p>Install Safe Exam Browser dari App Store, lalu buka file konfigurasi ujian:</p>
+        <p>Install Safe Exam Browser dari App Store, lalu buka file konfigurasi ujian.</p>
 
         <a class="btn" href="https://github.com/wildanizecson/aplikasi-ujian/releases/latest/download/ExUjian.seb">
             Download Konfigurasi Ujian (.SEB)
